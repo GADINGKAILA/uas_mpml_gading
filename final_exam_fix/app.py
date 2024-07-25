@@ -4,7 +4,7 @@ import pandas as pd
 import os
 
 # Tentukan jalur absolut untuk file model
-model_path = os.path.join('C:\\Users\\user\\OneDrive\\Documents\\final_exam - Copy', 'model.pkl')
+model_path = os.path.join('C:\\Users\\user\\OneDrive\\Documents\\final_exam_fix', 'model.pkl')
 print(f"Attempting to load model from: {model_path}")
 
 if not os.path.isfile(model_path):
